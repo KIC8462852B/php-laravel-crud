@@ -23,8 +23,6 @@ A minimal, opinionated Node.js CRUD example — intentionally tiny and focused s
 - [Examples (curl)](#examples-curl)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Quick Start
 
@@ -130,31 +128,5 @@ Common npm scripts (example):
 
 Check package.json for the actual, configured scripts.
 
-## Contributing
 
-Contributions are welcome. For small educational repos like this:
-- Open an issue to propose changes or ask questions
-- Open a pull request with a focused change and tests where appropriate
-- Keep changes small and well-described
 
-If you plan to add a persistent DB option, consider:
-- Adding a `store` interface and swapping implementations
-- Adding environment config (e.g., PORT, DB_URL)
-- Documenting migration steps in README
-
-## Extending this Example
-
-Ideas to make the project more real-world:
-- Replace in-memory store with SQLite/Postgres/Mongo and document migrations
-- Add validation (e.g., using Joi or express-validator)
-- Add request logging and structured error handling
-- Add unit and integration tests
-- Add Dockerfile and docker-compose for local dev
-
-## License
-
-This repository is offered under the MIT License. See the LICENSE file for details.
-
-## Contact
-
-If you have questions, open an issue or reach out via the GitHub repository.
